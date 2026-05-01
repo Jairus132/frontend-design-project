@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tickets - Grand Theater</title>
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styling.css">
+</head>
+<body>
+  <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🎭 Theater Show</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="auditorium.html">Auditorium</a></li>
+          <li class="nav-item"><a class="nav-link" href="shows.html">Shows</a></li>
+          <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="magzines.html">Magazines</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="tic">
+ 
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="container my-5 pricing">
+    <h2 class="text-center mb-4">Ticket Categories</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card  text-center h-100">
+          <div class="card-body">
+            <h5 class="card-title">🎟 Standard</h5>
+            <p class="card-text">General Seating</p>
+            <h3>$20</h3>
+            <a href="#booking" class="btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card  text-center h-100 ">
+          <div class="card-body">
+            <h5 class="card-title">⭐ Premium</h5>
+            <p class="card-text">Front Rows</p>
+            <h3>$50</h3>
+            <a href="#booking" class="btn ">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card  text-center h-100 ">
+          <div class="card-body">
+            <h5 class="card-title">👑 VIP</h5>
+            <p class="card-text">Exclusive Seating+Backstage Pass</p>
+            <h3>$100</h3>
+            <a href="#booking" class="btn">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section id="booking" class="container  my-5">
+    <h2 class="text-center pt-4">Reserve Your Seat</h2>
+    <form class="form row g-3 shadow p-4 rounded ">
+      <div class="col-md-6">
+        <label class="form-label">Full Name</label>
+        <input type="text" class="form-control" placeholder="Enter your name" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Enter your email" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Show Date</label>
+        <input type="date" class="form-control" required>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Seats</label>
+        <input type="number" class="form-control" placeholder="Number of seats" required>
+      </div>
+      <div class="col-md-12">
+        <label class="form-label">Category</label>
+        <select class="form-select" required>
+          <option value="">Select Category</option>
+          <option>Standard - $20</option>
+          <option>Premium - $50</option>
+          <option>VIP - $100</option>
+        </select>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn  btn-lg">Confirm Booking</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025  The Theater Show | All Rights Reserved</p>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>

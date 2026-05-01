@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback & Queries - Grand Theater</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styling.css">
+
+  <!-- <style>
+    body {
+      font-family: 'Georgia', serif;
+    }
+    .queries {
+      background: url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b') no-repeat center center/cover;
+      height: 40vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    .queries h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px black;
+    }
+    .feed{
+      box-shadow: 0 5px 15px #c2a33d;
+      background:#1c1c1c;
+    }
+    .contact-box {
+      background: #f8f9fa;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #111;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style> -->
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🎭 Theater Show</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="auditorium.html">Auditorium</a></li>
+          <li class="nav-item"><a class="nav-link" href="shows.html">Shows</a></li>
+          <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="magzines.html">Magazines</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="queries">
+
+  </section>
+
+  <!-- Feedback Form + Contact Info -->
+  <section class="container my-5">
+    <div class="row g-4">
+      <!-- Feedback Form -->
+      <div class="col-md-7">
+        <div class="feed p-4 rounded ">
+          <h2 class="mb-4">We’d love to hear from you</h2>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Subject</label>
+              <input type="text" class="form-control" placeholder="Feedback / Query" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-5">
+        <div class="contact-box rounded  p-4">
+          <h3 class="Contact">Contact Us</h3>
+          <p><strong>📍 Address:</strong> 123 Grand Street, Hyderabad</p>
+          <p><strong>📞 Phone:</strong> +92 300 1234567</p>
+          <p><strong>📧 Email:</strong> info@grandtheater.com</p>
+          <hr>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.265089135128!2d67.07275981500239!3d24.86073428405464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e3be9e92a0b%3A0xb43c5f8d0ff8a77b!2sHyderabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1677677777777"
+            width="100%" height="335" style="border:0;" allowfullscreen="" loading="fast"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 The Theater Show | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

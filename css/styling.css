@@ -1,0 +1,757 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #1a1a1a;
+
+}
+
+/* navbar start */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  background: #111;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbarNav {
+  list-style: none;
+  display: flex;
+  gap: 0px;
+}
+
+.navbar-brand {
+  font-style: italic;
+  font-size: 28px;
+  font-weight: 600;
+  color: #d4af37;
+  text-transform: uppercase;
+ text-shadow: 2px 2px 8px #ffdf80;
+
+
+
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f5f5dc;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.nav-item:hover {
+  color: #d4af37;
+  border-bottom: 2px solid #d4af37;
+}
+
+.nav-link:hover {
+  color: #d4af37;
+  border-bottom: 2px solid #d4af37;
+
+}
+/* navbar End */
+
+
+
+
+
+/* hero section start */
+.hero {
+  background: url("../images/pic3.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+  color: #b8860b;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 6px black;
+}
+
+.carda {
+  background: #111;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px #c2a33d;
+  transition: transform 0.3s;
+  color: #f5f5dc;
+}
+
+.card-title {
+  color: #f5f5dc;
+}
+
+.carda img {
+  height: 240px;
+}
+
+.carda:hover {
+  transform: translateY(-8px);
+
+}
+
+footer {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  background: #111;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+    top: 0;
+  z-index: 1000;
+}
+
+/* hero section end */
+
+
+
+
+/* button */
+.ticket-btn {
+  background: #d4af37;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-left: 20px;
+}
+
+.ticket-btn:hover {
+  background: #b8860b;
+  color: #f5f5dc;
+}
+
+
+/* about section start */
+.mb-4 {
+  color: #d4af37;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+p {
+  color: #f5f5dc;
+  font-size: 1.2rem;
+  word-spacing: none;
+}
+
+.btn {
+  background-color: #d4af37;
+  color: #f5f5dc;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #111;
+}
+
+
+/* auditorium page start */
+
+
+#main {
+    background: url("../images/add3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#main h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px black;
+   margin-top: 7%;
+   color: #b8860b;
+}
+.container1{
+  margin-top: 7%;
+}
+
+
+
+/* facliries */
+
+.card1 {
+  background: #1c1c1c;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px #c2a33d;
+  transition: transform 0.3s;
+}
+
+.card1:hover {
+  transform: translateY(-8px);
+
+}
+
+h5 {
+  color: #b8860b;
+  font-weight: bold;
+}
+
+
+
+.stage {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+/* .setaing */
+
+h2 {
+  color: #e2b04a;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.seating {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.seat:hover {
+  transform: scale(1.1);
+}
+
+/* Seat categories */
+.vip {
+  background-color: #e2b04a;
+}
+
+/* Gold for VIP */
+.balcony {
+  background-color: #4a90e2;
+}
+
+/* Blue for Balcony */
+.stalls {
+  background-color: #28a745;
+}
+
+/* Green for Stalls */
+.booked {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+/* Gray booked */
+
+/* Tooltip */
+.tooltip {
+  background: #000;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  color: #fff;
+  border: 1px solid #e2b04a;
+}
+
+/* seating end
+   */
+
+
+
+/* show start */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #f8d210;
+}
+
+.btn-group .btn {
+  border-radius: 30px;
+  margin: 3px;
+}
+
+.show-card {
+  background: #222;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.show-card:hover {
+  transform: scale(1.05);
+}
+
+.show-card img {
+  border-radius: 30px;
+  height: 300px;
+  padding: 20px;
+}
+
+.card-title {
+  color: white;
+}
+
+.badge-custom {
+  background-color: #f8d210;
+  color: #111;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+/* gallery */
+
+header {
+  background: url('../images/stage.jpg') no-repeat center/cover;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 2px 2px 8px black;
+  color:white;
+}
+
+/* Grid layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 columns desktop */
+  grid-auto-rows: 250px;
+  /* base row height */
+  gap: 20px;
+  padding: 40px;
+}
+
+.artist-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.artist-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.artist-card:hover {
+  transform: scale(1.05);
+}
+
+.artist-info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.artist-card:hover .artist-info {
+  transform: translateY(0);
+}
+
+.artist-info h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #ffcc00;
+}
+
+.artist-info p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+/* Spanning variations */
+.wide {
+  grid-column: span 2;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+/* tickets styling */
+
+    .tic{
+    background-image: url("../images/ticket.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    }
+   
+   
+    .pricing .card {
+     background: #1c1c1c;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px #c2a33d;
+  transition: transform 0.3s;
+    }
+    .pricing .card:hover {
+  transform: translateY(-8px);
+    }
+    .card-title{
+      color: #f5f5dc;
+    }
+    .card h3{
+      color: #f5f5dc;
+    }
+    .card-text{
+      font-size: 1.1rem;
+      color: #f5f5dc;
+    }
+    #booking{
+       box-shadow: 0 5px 15px #c2a33d;
+  border-radius: 10px;
+    }
+    .form-label{
+      color: #f5f5dc;
+    }
+    .form-select option{
+      background-color: #1c1c1c;
+      color: #f5f5dc;
+      border-color: #1c1c1c;
+    }
+
+   /* feedback */
+      .queries {
+      background: url("../images/feed.jpeg") no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    .queries h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px black;
+    }
+      
+    .form-label{
+      color: #f5f5dc;
+    }
+    .feed{
+      box-shadow: 0 5px 15px #c2a33d;
+      background:#1c1c1c;
+    }
+    .contact-box {
+       box-shadow: 0 5px 15px #c2a33d;
+      background:#1c1c1c;
+    }
+     .Contact{
+      color:  #f8d210;
+     }
+  
+  
+
+    /* speak */
+    .theater-speak {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .theater-speak h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #d4af37;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    /* Carousel container */
+    .carousel {
+      position: relative;
+      overflow: hidden;
+      background: #2a2a2a;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 50px;
+    }
+
+    .carousel-slide {
+      display: none;
+      font-size: 1.2em;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .carousel-slide.active {
+      display: block;
+      animation: fade 1s ease-in-out;
+    }
+
+    @keyframes fade {
+      from { opacity: 0.4; }
+      to { opacity: 1; }
+    }
+
+    .carousel-controls {
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .carousel-controls button {
+      background: #d4af37;
+      border: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .carousel-controls button:hover {
+      background: #ffdf80;
+    }
+
+    /* Audience Form */
+    .audience-form {
+      background: linear-gradient(135deg, #3a3a3a, #222);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    }
+
+    .audience-form h2 {
+      margin-bottom: 15px;
+      color: #ffdf80;
+    }
+
+    .audience-form input, .audience-form textarea, .audience-form button {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    .audience-form input, .audience-form textarea {
+      background: #f5f5f5;
+      color: #222;
+    }
+/* magazine */
+   /* 🎭 Magazine Section (Unified Style) */
+.magazines {
+  padding: 60px 10%;
+  background: #111; /* Dark, dramatic theater theme */
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Headings */
+.magazines h1,
+.magazines h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  color: #e6c200; /* Gold accent */
+  letter-spacing: 1px;
+}
+
+/* Latest Issue Highlight */
+.latest-issue {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+     box-shadow: 0 5px 15px #c2a33d;
+}
+
+.latest-issue img {
+  flex-shrink: 0;
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+.latest-issue h2 {
+  color: #ffdd33;
+  margin: 0 0 15px;
+}
+
+.latest-issue p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.latest-issue a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  background: #e6c200;
+  color: #111;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+    
+}
+
+.latest-issue a:hover {
+  background: #ffdd33;
+}
+
+/* Magazine Grid */
+.magazine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.magazine {
+ background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+   box-shadow: 0 5px 15px #c2a33d;
+}
+
+.magazine img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.magazine h3 {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.magazine:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.6);
+}
+
+/* Buttons inside grid */
+.magazine.btn {
+  display: inline-block;
+  margin: 6px 4px;
+  padding: 8px 15px;
+  background: #e6c200;
+  color: #111;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.magazine.btn:hover{
+  background: #ffdd33;
+}
+
+/* Archive Section */
+.archive {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.archive div {
+  text-align: center;
+}
+
+.archive img {
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px #c2a33d;
+  transition: transform 0.3s ease;
+}
+.archive .img1{
+  width: 150px;
+  height: 250px;
+}
+.archive img:hover {
+  transform: scale(1.08);
+}
+
+.archive p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+/* magazine end */
+
+
+
+/* modal */
+.form-label1{
+  color: #000;
+}
+
+
+/* data filter */
+.btn .data-filter{
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
